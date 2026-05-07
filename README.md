@@ -14,7 +14,7 @@
 ##  Final Product
 
 <p align="center">
-  <img src="src/assets/VoteChain_Logo.png" width="100" alt="Logo" />
+  <img src="frontend/src/assets/VoteChain_Logo.png" width="100" alt="Logo" />
 </p>
 
 | **Admin Dashboard** | **Voter Interface** | **Home Page** |
