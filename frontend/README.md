@@ -1,16 +1,37 @@
-# React + Vite
+# VoteChain
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**VoteChain** is a decentralized voting application (dApp) built on **Base Sepolia**. It replaces traditional centralized voting with a transparent, immutable blockchain-based system using a Factory Pattern architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Tech Stack
+* **Frontend:** React.js, Vite, Bootstrap 
+* **Blockchain:** Solidity, Ethers.js, Base Sepolia Testnet
+* **Smart Contracts:** Factory-Session Architecture (deployed via Remix)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Final Product
 
-## Expanding the ESLint configuration
+<p align="center">
+  <img src="src/assets/VoteChain_Logo.png" width="100" alt="Logo" />
+</p>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| **Admin Dashboard** | **Voter Interface** | **Home Page** |
+| :--- | :--- | :--- |
+| ![Admin](src/assets/33e84a46-0215-44c0-9eb6-5ff3274f707a.jpg) | ![Voter](src/assets/7a082cbe-7af0-4807-8301-e94f659cfcd2.jpg) | ![Home](src/assets/f1cb0694-f007-4474-8e36-c3de4d6f95cb.jpg) |
+
+---
+
+##  Key Features
+* **Factory Pattern:** Every election session is its own isolated smart contract deployed by the main Factory contract.
+* **Whitelisting:** Only admin-authorized addresses can cast votes (on-chain verification).
+* **Finalization Logic:** Once a session ends, the winner is permanently certified and the state is locked.
+
+---
+
+##  Development
+
+1. **Install:** `npm install`
+2. **Run:** `npm run dev`
+3. **Network:** Connect MetaMask to **Base Sepolia**.
