@@ -19,7 +19,7 @@
 
 | **Admin Dashboard** | **Voter Interface** | **Home Page** |
 | :--- | :--- | :--- |
-| ![Admin](src/assets/33e84a46-0215-44c0-9eb6-5ff3274f707a.jpg) | ![Voter](src/assets/7a082cbe-7af0-4807-8301-e94f659cfcd2.jpg) | ![Home](src/assets/f1cb0694-f007-4474-8e36-c3de4d6f95cb.jpg) |
+| ![Admin](frontend/src/assets/33e84a46-0215-44c0-9eb6-5ff3274f707a.jpg) | ![Voter](frontend/src/assets/7a082cbe-7af0-4807-8301-e94f659cfcd2.jpg) | ![Home](frontend/src/assets/f1cb0694-f007-4474-8e36-c3de4d6f95cb.jpg) |
 
 ---
 
